@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(87deg,#c292b7,#bd94b9,#d17777);
+}
+.calci{
+    width: 320px;
+    height: 470px;
+    border: 1px solid;
+    margin-left: 15px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(241, 230, 74);
+    position: relative;
+    left: 40%;
+    top: 100px;
+}
+
+.calci input{
+    width: 95%;
+    height: 50px;
+    border-top: 0;
+    border-bottom: 1px solid;
+    border-left: 0;
+    border-right: 0;
+    background-color: white;
+    padding-left: 15px;
+}
+
+.calci input[value]{
+    font-size: 25px;
+   
+}
+.calci input:focus{
+    outline: none;
+}
+.calci .number{
+    display: grid;
+    float: left;
+    border: 2px solid rgb(92, 1, 31);
+    margin: 10px;
+   
+    width: 55px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 25px;
+    padding-top: 15px;
+    background-color: rgb(92, 1, 31);
+    color: white;
+}
+.calci .equal , .calci .clear{
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 65px;
+}
